@@ -73,14 +73,56 @@ DevCleaner is built and maintained as free software for the developer community.
 
 ---
 
-## 💻 Installation
+## 💻 Installation & macOS Gatekeeper Guide
 
+### Standard Installation
 1. Download **[DevCleaner-v2.1.0.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.1.0/DevCleaner-v2.1.0.dmg)**.
 2. Double-click the `.dmg` and drag **DevCleaner.app** into your **Applications** folder.
-3. Launch DevCleaner from Applications or Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>).
 
-> [!NOTE]
-> On first launch, macOS may prompt for **Full Disk Access**. This permission is required so DevCleaner can audit hidden caches inside `~/Library/Caches`, Xcode DerivedData, and Docker volumes. You can enable it in **System Settings → Privacy & Security → Full Disk Access**.
+---
+
+### 🛡️ How to Open If macOS Says "Developer Cannot Be Verified"
+
+Because DevCleaner is a community-driven, free open-source project and is distributed outside the official Mac App Store without an annual paid Apple Developer certificate, macOS Gatekeeper may show a standard prompt on first launch:
+
+> *"DevCleaner cannot be opened because Apple cannot check it for malicious software"*  
+> or  
+> *"DevCleaner is from an unidentified developer."*
+
+This is standard macOS security behavior for independent open-source tools. You can approve and open DevCleaner in seconds using any of the 3 simple methods below:
+
+#### ⚡ Method 1: Right-Click / Control-Click (Recommended — Takes 3 Seconds)
+1. Open Finder and go to your **Applications** folder.
+2. **Right-click** (or hold <kbd>Control</kbd> and click) on **DevCleaner.app**.
+3. Choose **Open** from the context menu.
+4. On the dialog prompt that appears, click **Open** (or **Open Anyway**).
+5. *You only have to do this once. macOS will remember your decision and open normally from now on!*
+
+#### ⚙️ Method 2: System Settings → Privacy & Security
+1. If you double-clicked the app and saw the warning dialog, click **Done** or **OK**.
+2. Open **System Settings** on your Mac ( Apple menu → **System Settings**).
+3. In the sidebar, select **Privacy & Security**.
+4. Scroll down to the **Security** section.
+5. You will see a message:  
+   *`"DevCleaner" was blocked from use because it is not from an identified developer.`*
+6. Click the **Open Anyway** button next to it.
+7. Enter your Mac administrator password or use Touch ID, then click **Open**.
+
+#### 🖥️ Method 3: One-Line Terminal Command (For Developers & Power Users)
+Open your Terminal and run:
+```bash
+xattr -cr /Applications/DevCleaner.app
+```
+*This command clears the `com.apple.quarantine` extended attribute, allowing DevCleaner to launch instantly without any security prompts.*
+
+---
+
+### 🔐 Full Disk Access Permission (Required for Deep Cleaning)
+To safely calculate and clean system-level developer caches (like Xcode DerivedData, Docker VM layers, and Android build caches located in `~/Library/Caches`), macOS requires **Full Disk Access**:
+
+1. Open **System Settings → Privacy & Security → Full Disk Access**.
+2. Click the **+** button or toggle the switch next to **DevCleaner**.
+3. Relaunch DevCleaner.
 
 ---
 
@@ -101,10 +143,19 @@ DevCleaner is built and maintained as free software for the developer community.
 
 ---
 
-## 🛠️ Source Code
+## 🔍 Popular Search Keywords & Tags
 
-The full source code of DevCleaner is published and maintained at:  
+DevCleaner is built for macOS software engineers, data scientists, and developers looking for:
+`macos disk cleaner`, `xcode deriveddata cleaner`, `clean xcode cache`, `free cleanmymac alternative`, `docker prune macos`, `ollama model cleaner`, `huggingface cache cleaner`, `android studio gradle cache clean`, `cocoapods cache clean`, `npm cache clean force`, `bun package cache`, `rust cargo clean registry`, `mac duplicate file finder`, `git clean node_modules`, `swift package manager cache clean`, `mac storage breakdown`, `macos app uninstaller free`, `developer disk space optimizer`.
+
+---
+
+## 🛠️ Source Code & Contributing
+
+The complete source code of DevCleaner is published and maintained at:  
 👉 **[github.com/khawarahemad/DevCleanerSrc](https://github.com/khawarahemad/DevCleanerSrc)**
+
+Issues, feature requests, and community pull requests are welcome!
 
 ---
 
