@@ -15,13 +15,13 @@
 
 <br/>
 
-### 📦 Download Latest Release
+### 📦 Download Latest Release (v2.2.0)
 
-<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.1.0/DevCleaner-v2.1.0.dmg">
+<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.2.0/DevCleaner-v2.2.0.dmg">
   <img src="https://img.shields.io/badge/Download_for_macOS-Apple_Disk_Image_(.dmg)-007AFF?style=for-the-badge&logo=apple&logoColor=white" height="46" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.1.0/DevCleaner-v2.1.0-macOS.zip">
+<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.2.0/DevCleaner-v2.2.0-macOS.zip">
   <img src="https://img.shields.io/badge/Download_ZIP_Archive-Universal_Binary-34C759?style=for-the-badge&logo=apple&logoColor=white" height="46" />
 </a>
 
@@ -51,32 +51,28 @@ https://github.com/khawarahemad/DevCleaner/raw/main/assets/devcleaner_cinematic_
 
 ---
 
-## ☕ Support the Project & Buy Me a Coffee
+## 💎 Licensing & Pricing Plans
 
-DevCleaner is built and maintained as free software for the developer community. If DevCleaner helped you free up gigabytes of drive space, please consider buying me a coffee to support maintenance, performance tuning, and new framework targets!
+DevCleaner is built for both everyday users and professional software engineers:
 
-<div align="center">
+- **Free Tier (Always Free)**: macOS User & System Caches, Crash Reports & System Logs, Trash Bin, Package Managers (NPM, Pip), Storage Breakdown (disk gauge & category explorer; directory paths hidden), and Clean History.
+- **Pro Tier (Paid Developer Tools)**: Xcode (DerivedData, Archives, iOS Simulators), Android Studio, Gradle, Docker Disks, AI/ML Model Caches (Ollama, HuggingFace, Cursor), Duplicate Files Finder, Large Files Finder, Git Repository Purge, App Uninstaller, Startup Items, Smart Scan, and Full Directory Path Inspection & Finder reveal in Storage Breakdown.
 
-<a href="https://github.com/sponsors/khawarahemad">
-  <img src="https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" height="42" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/sponsors/khawarahemad">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" height="42" />
-</a>
+### 💰 Pricing
+| Plan | Price | Validity | Best For |
+| :--- | :--- | :--- | :--- |
+| **Pro Monthly** | **₹99** | 30 Days | Trying out deep developer cleaning |
+| **Pro Quarterly** | **₹199** | 90 Days | **Popular** (Save 33%) |
+| **Pro Yearly** | **₹599** | 365 Days | **Best Value** (Save 50%) |
 
-<br/><br/>
-<p>💖 <b><a href="https://github.com/sponsors/khawarahemad">https://github.com/sponsors/khawarahemad</a></b></p>
-<p><i>Every contribution directly funds future feature development, AI model cache modules, and macOS updates.</i></p>
-
-</div>
+> **Hardware-Locked Security**: Each subscription is permanently tied to a single Mac via native `IOPlatformUUID` hardware verification. Even if an active session is unlinked, the license remains reserved exclusively for the original Mac and cannot be transferred or shared with other devices.
 
 ---
 
 ## 💻 Installation & macOS Gatekeeper Guide
 
 ### Standard Installation
-1. Download **[DevCleaner-v2.1.0.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.1.0/DevCleaner-v2.1.0.dmg)**.
+1. Download **[DevCleaner-v2.2.0.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.2.0/DevCleaner-v2.2.0.dmg)**.
 2. Double-click the `.dmg` and drag **DevCleaner.app** into your **Applications** folder.
 
 ---
