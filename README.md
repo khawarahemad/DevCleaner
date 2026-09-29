@@ -15,13 +15,13 @@
 
 <br/>
 
-### 📦 Download Latest Release (v2.3.3)
+### 📦 Download Latest Release (v2.3.4)
 
-<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.3/DevCleaner-v2.3.3.dmg">
+<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.4/DevCleaner-v2.3.4.dmg">
   <img src="https://img.shields.io/badge/Download_for_macOS-Apple_Disk_Image_(.dmg)-007AFF?style=for-the-badge&logo=apple&logoColor=white" height="46" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.3/DevCleaner-v2.3.3-macOS.zip">
+<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.4/DevCleaner-v2.3.4-macOS.zip">
   <img src="https://img.shields.io/badge/Download_ZIP_Archive-Universal_Binary-34C759?style=for-the-badge&logo=apple&logoColor=white" height="46" />
 </a>
 
@@ -72,7 +72,7 @@ DevCleaner is built for both everyday users and professional software engineers:
 ## 💻 Installation & macOS Gatekeeper Guide
 
 ### Standard Installation
-1. Download **[DevCleaner-v2.3.3.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.3/DevCleaner-v2.3.3.dmg)**.
+1. Download **[DevCleaner-v2.3.4.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.4/DevCleaner-v2.3.4.dmg)**.
 2. Double-click the `.dmg` and drag **DevCleaner.app** into the **Applications** folder shortcut.
 
 ---
@@ -126,7 +126,7 @@ To safely calculate and clean system-level developer caches (like Xcode DerivedD
 
 | Feature | Description |
 | :--- | :--- |
-| **⚡ Mac Performance Optimizer** | Real-time RAM monitor & purge, DNS cache flush, macOS update scanner & Settings deep link, Spotlight re-indexer, Time Machine snapshot thinning, and Apple Mail database vacuum. |
+| **⚡ Mac Performance Optimizer** | Real-time RAM monitor & purge, live Process Usage table & Process Terminator (kill -9, filter search, multi-kill), DNS cache flush, macOS update scanner & Settings deep link, Spotlight re-indexer, Time Machine snapshot thinning, and Apple Mail database vacuum. |
 | **🪄 Smart System Scan** | One-click audit across 30+ developer tools, package caches, and system junk targets. |
 | **🛠️ Developer Tools** | Xcode DerivedData, Archives, iOS DeviceSupport, Android Studio, Gradle, Docker, JetBrains, CocoaPods. |
 | **🧠 AI & ML Caches** | Reclaim space from Ollama LLMs (`~/.ollama/models`), Hugging Face hub, PyTorch, Cursor, and VS Code AI. |
