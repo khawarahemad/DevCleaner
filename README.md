@@ -1,27 +1,27 @@
 <div align="center">
 
 # ✨ DevCleaner for macOS
-### The Ultimate High-Performance Developer Disk Cleaner & Optimizer
+### The Ultimate High-Performance Developer Disk Cleaner & Mac Performance Optimizer
 
 [![Release](https://img.shields.io/github/v/release/khawarahemad/DevCleaner?style=for-the-badge&color=007AFF&logo=apple)](https://github.com/khawarahemad/DevCleaner/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-14.0%2B%20Sonoma%20%7C%20Sequoia-black?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/khawarahemad)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-FF2D55?style=for-the-badge)](LICENSE)
 
 <p align="center">
-  <b>Reclaim 20GB – 100GB+ of hidden developer junk, Xcode derived data, local AI model blobs, package caches, and build artifacts in seconds.</b>
+  <b>Reclaim 20GB – 100GB+ of hidden developer junk, Xcode derived data, local AI model blobs, package caches, and build artifacts. Optimize RAM, flush DNS, thin Time Machine snapshots, and automate background cleanups in seconds.</b>
 </p>
 
 <br/>
 
-### 📦 Download Latest Release (v2.2.0)
+### 📦 Download Latest Release (v2.3.3)
 
-<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.2.0/DevCleaner-v2.2.0.dmg">
+<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.3/DevCleaner-v2.3.3.dmg">
   <img src="https://img.shields.io/badge/Download_for_macOS-Apple_Disk_Image_(.dmg)-007AFF?style=for-the-badge&logo=apple&logoColor=white" height="46" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.2.0/DevCleaner-v2.2.0-macOS.zip">
+<a href="https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.3/DevCleaner-v2.3.3-macOS.zip">
   <img src="https://img.shields.io/badge/Download_ZIP_Archive-Universal_Binary-34C759?style=for-the-badge&logo=apple&logoColor=white" height="46" />
 </a>
 
@@ -55,8 +55,8 @@ https://github.com/khawarahemad/DevCleaner/raw/main/assets/devcleaner_cinematic_
 
 DevCleaner is built for both everyday users and professional software engineers:
 
-- **Free Tier (Always Free)**: macOS User & System Caches, Crash Reports & System Logs, Trash Bin, Package Managers (NPM, Pip), Storage Breakdown (disk gauge & category explorer; directory paths hidden), and Clean History.
-- **Pro Tier (Paid Developer Tools)**: Xcode (DerivedData, Archives, iOS Simulators), Android Studio, Gradle, Docker Disks, AI/ML Model Caches (Ollama, HuggingFace, Cursor), Duplicate Files Finder, Large Files Finder, Git Repository Purge, App Uninstaller, Startup Items, Smart Scan, and Full Directory Path Inspection & Finder reveal in Storage Breakdown.
+- **Free Tier (Always Free)**: macOS User & System Caches, Crash Reports & System Logs, Trash Bin, Package Managers (NPM, Pip), Storage Breakdown (disk gauge & category explorer; directory paths hidden), Clean History, and Basic Mac Optimization (DNS Cache Flush & System Maintenance Scripts).
+- **Pro Tier (Paid Developer Tools & Automation)**: Xcode (DerivedData, Archives, iOS Simulators), Android Studio, Gradle, Docker Disks, AI/ML Model Caches (Ollama, HuggingFace, Cursor), Duplicate Files Finder, Large Files Finder, Git Repository Purge, App Uninstaller with leftover purging, Startup Items, Smart Scan, Full Directory Path Inspection & Finder reveal in Storage Breakdown, Deep Mac Optimization (RAM Purge, Spotlight Re-index, Time Machine Snapshot Thinning, Apple Mail Vacuum), and Auto-Clean Background Scheduler.
 
 ### 💰 Pricing
 | Plan | Price | Validity | Best For |
@@ -72,20 +72,20 @@ DevCleaner is built for both everyday users and professional software engineers:
 ## 💻 Installation & macOS Gatekeeper Guide
 
 ### Standard Installation
-1. Download **[DevCleaner-v2.2.0.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.2.0/DevCleaner-v2.2.0.dmg)**.
-2. Double-click the `.dmg` and drag **DevCleaner.app** into your **Applications** folder.
+1. Download **[DevCleaner-v2.3.3.dmg](https://github.com/khawarahemad/DevCleaner/releases/download/v2.3.3/DevCleaner-v2.3.3.dmg)**.
+2. Double-click the `.dmg` and drag **DevCleaner.app** into the **Applications** folder shortcut.
 
 ---
 
-### 🛡️ How to Open If macOS Says "Developer Cannot Be Verified"
+### 🛡️ How to Open If macOS Shows a Gatekeeper Notice
 
-Because DevCleaner is a community-driven, free open-source project and is distributed outside the official Mac App Store without an annual paid Apple Developer certificate, macOS Gatekeeper may show a standard prompt on first launch:
+Because DevCleaner is distributed independently outside the official Mac App Store without Apple Developer notarization, macOS Gatekeeper may show a standard prompt on first launch:
 
 > *"DevCleaner cannot be opened because Apple cannot check it for malicious software"*  
 > or  
 > *"DevCleaner is from an unidentified developer."*
 
-This is standard macOS security behavior for independent open-source tools. You can approve and open DevCleaner in seconds using any of the 3 simple methods below:
+This is standard macOS security behavior for independent third-party software. You can approve and open DevCleaner in seconds using any of the 3 simple methods below:
 
 #### ⚡ Method 1: Right-Click / Control-Click (Recommended — Takes 3 Seconds)
 1. Open Finder and go to your **Applications** folder.
@@ -126,15 +126,18 @@ To safely calculate and clean system-level developer caches (like Xcode DerivedD
 
 | Feature | Description |
 | :--- | :--- |
+| **⚡ Mac Performance Optimizer** | Real-time RAM monitor & purge, DNS cache flush, macOS update scanner & Settings deep link, Spotlight re-indexer, Time Machine snapshot thinning, and Apple Mail database vacuum. |
 | **🪄 Smart System Scan** | One-click audit across 30+ developer tools, package caches, and system junk targets. |
 | **🛠️ Developer Tools** | Xcode DerivedData, Archives, iOS DeviceSupport, Android Studio, Gradle, Docker, JetBrains, CocoaPods. |
 | **🧠 AI & ML Caches** | Reclaim space from Ollama LLMs (`~/.ollama/models`), Hugging Face hub, PyTorch, Cursor, and VS Code AI. |
 | **📦 Package Managers** | Clean global package caches for NPM, Yarn, Rust Cargo, Python Pip, Bun, Go modcache, and Flutter. |
-| **📁 Large Files Cleaner** | Ranks your drive's top 100MB+ oversized files with Reveal in Finder and quick removal. |
-| **👯 Duplicate Files Finder** | Identifies files with matching MD5 content hashes across user directories to eliminate duplicate files. |
-| **🌿 Git Repo Cleaner** | Discovers Git repositories across your machine and clears heavy `.build/` and `node_modules/` folders without touching source code. |
-| **🗑️ App Uninstaller** | Safely uninstalls applications along with every orphaned file left behind in `~/Library/Application Support` and `~/Library/Caches`. |
+| **📁 Large Files Cleaner** | Ranks drive's top 100MB+ oversized files with instant auto-scan on tab visit and Reveal in Finder. |
+| **👯 Duplicate Files Finder** | Identifies files with matching MD5 content hashes across user directories to eliminate redundant copies. |
+| **🌿 Git Repo Cleaner** | Discovers Git repositories and clears heavy `.build/` and `node_modules/` folders without touching source code. |
+| **🗑️ App Uninstaller** | Preloaded at launch for zero wait times. Safely uninstalls apps and purges all orphaned leftover Library caches. |
 | **⚡ Startup Items Manager** | Lists active user `LaunchAgents` and system `LaunchDaemons` to keep boot times snappy. |
+| **⏰ Auto-Clean Scheduler** | Automated background sweeps on configurable intervals (Daily to Monthly) with custom target filters and macOS notifications. |
+| **🔄 In-App Auto-Updater** | Non-intrusive floating glassmorphic update banner, inline changelog drawer, and one-click DMG download & auto-reinstall. |
 | **📈 Clean History** | Unified tracking across all tools with a 14-day activity chart, color-coded badges, and expandable file lists. |
 
 ---
@@ -142,19 +145,19 @@ To safely calculate and clean system-level developer caches (like Xcode DerivedD
 ## 🔍 Popular Search Keywords & Tags
 
 DevCleaner is built for macOS software engineers, data scientists, and developers looking for:
-`macos disk cleaner`, `xcode deriveddata cleaner`, `clean xcode cache`, `free cleanmymac alternative`, `docker prune macos`, `ollama model cleaner`, `huggingface cache cleaner`, `android studio gradle cache clean`, `cocoapods cache clean`, `npm cache clean force`, `bun package cache`, `rust cargo clean registry`, `mac duplicate file finder`, `git clean node_modules`, `swift package manager cache clean`, `mac storage breakdown`, `macos app uninstaller free`, `developer disk space optimizer`.
+`macos disk cleaner`, `xcode deriveddata cleaner`, `clean xcode cache`, `free cleanmymac alternative`, `docker prune macos`, `ollama model cleaner`, `huggingface cache cleaner`, `android studio gradle cache clean`, `cocoapods cache clean`, `npm cache clean force`, `bun package cache`, `rust cargo clean registry`, `mac duplicate file finder`, `git clean node_modules`, `swift package manager cache clean`, `mac storage breakdown`, `macos app uninstaller free`, `mac ram purge`, `mac dns flush`, `macos system update checker`, `developer disk space optimizer`.
 
 ---
 
-## 🛠️ Source Code & Contributing
+## 💬 Feedback & Support
 
-The complete source code of DevCleaner is published and maintained at:  
-👉 **[github.com/khawarahemad/DevCleanerSrc](https://github.com/khawarahemad/DevCleanerSrc)**
-
-Issues, feature requests, and community pull requests are welcome!
+Encountered an issue or have a feature suggestion?
+Please submit bug reports and feedback through the official tracker:  
+👉 **[Open an Issue](https://github.com/khawarahemad/DevCleaner/issues)**
 
 ---
 
-## 📄 License
+## 📄 License & Terms
 
-DevCleaner is open source software released under the [MIT License](LICENSE).
+DevCleaner is proprietary commercial software. Copyright © 2026 Khawar Ahemad. All rights reserved.  
+Use of DevCleaner (both Free and Pro tiers) is governed by the [DevCleaner Software License Agreement](LICENSE). Reverse engineering, decompilation, redistribution, or unauthorized mirroring of this application is strictly prohibited.

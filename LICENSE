@@ -1,21 +1,25 @@
-MIT License
+DevCleaner Proprietary Software License Agreement
 
-Copyright (c) 2026 Khawar Ahemad
+Copyright (c) 2026 Khawar Ahemad. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+By downloading, installing, accessing, or using DevCleaner ("Software"), you agree to be bound by the terms and conditions of this License Agreement.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. LICENSE GRANT
+The author grants you a revocable, non-exclusive, non-transferable, personal license to download, install, and execute the Software on authorized Apple macOS devices solely for your personal or internal business use, subject to the restrictions of the chosen tier (Free or Pro subscription).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. RESTRICTIONS
+You expressly agree NOT to:
+(a) Decompile, reverse engineer, disassemble, decrypt, or attempt to derive the source code of the Software or any part thereof;
+(b) Modify, adapt, improve, enhance, translate, or create derivative works from the Software;
+(c) Distribute, sublicense, rent, lease, lend, sell, mirror, or otherwise transfer the Software or any license keys to any third party;
+(d) Circumvent, disable, or tamper with any hardware lock, activation mechanism, or security features embedded in the Software;
+(e) Remove, alter, or obscure any proprietary notice (including copyright, trademark, or branding notices) of the author.
+
+3. INTELLECTUAL PROPERTY & OWNERSHIP
+All title, ownership rights, trademarks, patents, and intellectual property rights in and to the Software, documentation, and any copies thereof remain exclusively with Khawar Ahemad. This Agreement does not convey any ownership interest in the Software.
+
+4. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. USE OF THE SOFTWARE IS ENTIRELY AT YOUR OWN RISK.
+
+5. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING DAMAGES FOR LOSS OF BUSINESS PROFITS, DATA LOSS, OR SYSTEM INTERRUPTION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE.
